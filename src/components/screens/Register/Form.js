@@ -50,12 +50,13 @@ const Form = () => {
         close_hour: "",
         image: "",
       });
+      document.getElementById("pic").value = "";
       setIsLoading((prev) => !prev);
-    }, 3000);
+    }, 1000);
 
     // url = res.data.secure_url;
 
-    // setForm({ ...form, image: JSON.stringify(res.data.secure_url) });
+    // setForm({ ...form, image: res.data.secure_url });
     // console.log(form);
     // setForm((prev) => {
     //   return { ...prev, image: res };
@@ -91,9 +92,13 @@ const Form = () => {
         setImageURL(res.data.secure_url);
         setUploading(false);
         setError(false);
+
         setForm((prev) => {
           return { ...prev, image: imageURL };
         });
+        setTimeout(() => {
+          setLoadingImage(false);
+        }, 2000);
       })
       .catch((err) => {
         console.error(err);

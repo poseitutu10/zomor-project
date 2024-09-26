@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { PlacesContext } from "../../../utils/Context";
-import { attractionSites } from "../../../data/data";
 import { CiSearch } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";

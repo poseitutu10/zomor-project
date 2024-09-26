@@ -1,10 +1,12 @@
 import React from "react";
-import { attractionSites } from "../../../data/data";
 import { Link } from "react-router-dom";
 import { IoLocationOutline } from "react-icons/io5";
+import { useContext } from "react";
+import { PlacesContext } from "../../../utils/Context";
 
 const Place = () => {
-  const data = attractionSites.slice(0, 4);
+  const { places } = useContext(PlacesContext);
+  const data = places.slice(0, 4);
   return (
     <>
       <div className="works md:mx-40 my-5 md:my-20 space-y-5">

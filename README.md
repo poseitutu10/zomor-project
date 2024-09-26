@@ -39,4 +39,8 @@ Create a GitHub repository and develop a simple frontend application using Vue.j
 - We look forward to reviewing your submission within three days. Good luck!
 - You can use this as some inspiration: https://heny.app/places
 
+To setup this project, first clone the repository and open the repository with a code editor.
+Open the terminal and type `npm update` or `npm i`
+After a successfull installation, run `npm start` to run the code.
+
 This web application is built in React js making use of TailwindCSS for styling. This miniproject is fully completed with all of its functional requirements achieved. Thus, a user can create a new tourist attraction by filling a form which requests for the name, description, location, open and close hours, and upload images. The values from the forms are then stored as a context API. The list of all places are displayed in addition to the newly created place. Lastly, the details of every single place is displayed with the use of dynamic routing. Due to inadequade knowledge and skills I have on Graphql Server, I didn't provide an interaction between the frontend and the Graphql server but I provided an interaction between the frontend and cloudinary when uploading the images with the use of axios. However, I can catch up with Graphql in no time although I also have a narrow understanding of postman, node js, express js, postgresql amd mysql. The frontend provides a responsiveness to variety of devices. The project has four main parts. They are the home page, experience, become a curator and register a new site.
