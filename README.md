@@ -1,9 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -11,60 +5,38 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project Task
 
-### `npm test`
+Create a GitHub repository and develop a simple frontend application using Vue.js/NuxtJS (or React.js) to interact with the backend API you created in Part 1( if you are not doing part one, feel free to use this Graphql Server https://heny-api.core.zormor.com/graphql ). The frontend application should provide the following functionalities:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Project Functionalities
 
-### `npm run build`
+1. Create a new place with name, description, location, open hours, and images upload.
+2. View a list of all places.
+3. View details of a single place.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Requirements:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Use Vue.js (NuxtJs) to develop the frontend application.
+- Use mock data if you haven't completed the backend task.
+- Write a README.md file with setup instructions, project overview, and explanation of your implementation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Submission Guidelines:
 
-### `npm run eject`
+1. Create a new GitHub repository for your project.
+2. Develop the frontend application according to the specified requirements.
+3. Push your code to the GitHub repository.
+4. Write a detailed README.md file explaining how to set up and run your project, along with any additional information about your implementation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Note
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Try and complete this task in 3 days after receiving it.
+- Submit your GitHub repos by email: info@zormor.com , make sure your Github Repos are public.
+- Please ensure your code is well-documented, organised, and follows best practices.
+- Feel free to reach out if you have any questions or need clarification on the tasks.
+- We look forward to reviewing your submission within three days. Good luck!
+- You can use this as some inspiration: https://heny.app/places
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This web application is built in React js making use of TailwindCSS for styling. This miniproject is fully completed with all of its functional requirements achieved. Thus, a user can create a new tourist attraction by filling a form which requests for the name, description, location, open and close hours, and upload images. The values from the forms are then stored as a context API. The list of all places are displayed in addition to the newly created place. Lastly, the details of every single place is displayed with the use of dynamic routing. Due to inadequade knowledge and skills I have on Graphql Server, I didn't provide an interaction between the frontend and the Graphql server but I provided an interaction between the frontend and cloudinary when uploading the images with the use of axios. However, I can catch up with Graphql in no time although I also have a narrow understanding of postman, node js, express js, postgresql amd mysql. The frontend provides a responsiveness to variety of devices. The project has four main parts. They are the home page, experience, become a curator and register a new site.
